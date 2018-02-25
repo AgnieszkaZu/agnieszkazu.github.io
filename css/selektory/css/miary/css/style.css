@@ -54,5 +54,11 @@ html{
 }
 
 #cm {
-    width: 20;
+    width: 20cm;
+}
+#mm {
+    width: 200mm;
+}
+#pt {
+    width: 120pt;
 }
