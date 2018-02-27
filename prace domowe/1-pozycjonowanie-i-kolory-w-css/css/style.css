@@ -1,0 +1,64 @@
+#outer{
+    position:relative;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+}
+
+.inner{
+    width: 32%;
+    height: 32%;
+    position: relative;
+    display: inline-block;
+    top: 1.33%;
+    left: 1.33%;
+}
+
+.circle{
+    position: absolute;
+    display: inline-block;
+    border: 1.2px solid black;
+    border-radius: 100%;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 50%;
+}
+
+.red{
+    background-color: red;
+}
+
+.pink{
+  background-color: pink;
+}
+
+.green{
+  background-color: green;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.gray{
+  background-color: grey;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.black{
+  background-color: black;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.orange{
+  background-color: orange;
+}
+
+
