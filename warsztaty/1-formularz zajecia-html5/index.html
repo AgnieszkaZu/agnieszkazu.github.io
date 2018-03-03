@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+    <link rel="stylesheet" href="css/style.css">
+
 <body>
+    
     
     <form action="https://formspree.io/azuchora55@gmail.com"
         method="post">
         
         
         <label for="imie">Imię:</label>
-        <div><input type="text" name="imie" id="imie"></div><br/>
+        <div><input type="text" name="imie" id="imie"></div>
         
         <label for="nazwisko">Nazwisko:</label>
         <div><input type="text" name="nazwisko" id="nazwisko"></div><br/>
         
-        <label for="email">email:</label>
-        <div><input type="text" name="email" id="email"></div><br/>
+        <label for="email">E-mail:</label>
+        <div><input type="text" name="email" id="email"></div>
         
         <label for="tel">telefon:</label>
-        <div><input type="text" name="tel" id="tel"></div><br/>
+        <div><input type="text" name="tel" id="tel"></div>
         
+    <p>Wybierz miasto</p>
         <select name="select">
         <option value="value1">Krakow</option>
         <option value="value2" selected>Warszawa</option>
         <option value="value3">Gdańsk</option>
-        </select> <br/><br/>
+        </select>
                
-        <input name="plec" value="Kobieta" checked="" type="radio" id='kobieta'><label for='kobieta'>Kobieta</label>
-        
-        <input name="plec" value="Mężczyzna" type="radio" id='mezczyzna'><label for='mezczyzna'>Mężczyzna</label><br/><br/>
-           
-        <p>Zgoda na przewarzanie danych osobowych</p>
-        <div><input type="radio" name="odpowiedz" value="tak" checked>Tak<br/>
-        <input type="radio" name="odpowiedz" value="nie">Nie</div><br/><br/>
-        
+    <p>Wybierz płeć</p>
+         <input name="plec" value="Kobieta" checked="" type="radio" id='kobieta'><label for='kobieta'>Kobieta</label>
+        <input name="plec" value="Mężczyzna" type="radio" id='mezczyzna'><label for='mezczyzna'>Mężczyzna</label>
+                           
         <label for="message">Wiadomość:</label>
-        <div><textarea name="message" id="message" cols="50" rows="10"></textarea></div><br/>
+        <div><textarea name="message" id="message" cols="50" rows="10"></textarea></div>
         
+        
+        <input type="checkbox" name="zgoda" id="zgoda">
+        <label for="zgoda">Wyrażam zgodę na przewarzanie danych osobowych</label>
+
         <div>
-           
             <input type="submit" value="wyślij">
         </div>
         

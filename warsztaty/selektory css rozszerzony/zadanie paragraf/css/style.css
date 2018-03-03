@@ -19,4 +19,66 @@ a:visited{color:aqua}
 .clients-list div:nth-child(odd) {background: grey;}
 .clients-list div:nth-child(5n+4) {background: green;}
 
-input[type="text"]
+
+
+
+li {
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.outer{
+    
+}
+#jablko {
+    float: left;
+}
+
+#jablko2 {
+    float: right;
+}
+
+p:last-child{
+    clear: both;
+}
+
+#box1, #box2, #box3 {
+    width: 150px;
+    height: 150px;
+}
+
+#box1 {
+    background-color: yellow;
+    transition: background-color 5s ease-in,
+        width 3s ease-in;
+}
+#box1:hover {
+    background-color: cornflowerblue;
+    width: 300px;
+}
+
+#box2 {
+    background-color: red;
+    transition: background-color 5s ease-in,
+        height 3s ease-in;
+}
+
+#box2:hover {
+       background-color: goldenrod;
+        height: 300px;
+}
+
+#box3 {
+    background-color: green;
+    transition: background-color 5s ease-in,
+        width 3s ease-in, height 3s ease-in;
+}
+
+#box3:hover {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
