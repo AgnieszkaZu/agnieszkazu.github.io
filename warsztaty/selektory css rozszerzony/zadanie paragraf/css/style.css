@@ -1,0 +1,22 @@
+#p1::before {
+    content:przed;
+        color:green;
+}
+#p2::after{content:koniec;}
+
+
+#p5::first-line {}
+a:link {
+color:deepskyblue;}
+        
+#p5:target{color:red;}
+a{color:orange;
+font-size: 50px} 
+
+a:visited{color:aqua}
+        
+.clients-list div:nth-child(even) {background: pink;}
+.clients-list div:nth-child(odd) {background: grey;}
+.clients-list div:nth-child(5n+4) {background: green;}
+
+input[type="text"]

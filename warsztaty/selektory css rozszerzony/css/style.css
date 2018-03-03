@@ -1,0 +1,17 @@
+#p1::before {
+    content:przed tekstem;
+        color:red;
+}
+
+#p2::after {
+    content: koniec;
+}
+
+#p3::first-line {
+        first letter:: collor:orange;     
+    color: green
+}
+
+#p4::selection {
+    color:aqua
+}
