@@ -1,0 +1,23 @@
+.clients-list div:nth-child(even) {background: pink;}
+.clients-list div:nth-child(odd) {background: grey;}
+.clients-list div:nth-child(5n+4) {background: green;}
+
+
+a:hover {
+  color: red;
+}
+
+/*
+  Link, na którym jest ustawiony fokus
+  (np. za pomocą klawiatury)
+*/
+a:focus {
+  color: navy;
+}
+
+/*
+  Link, który w danym momencie jest aktywny
+*/
+a:active {
+  color: green;
+}

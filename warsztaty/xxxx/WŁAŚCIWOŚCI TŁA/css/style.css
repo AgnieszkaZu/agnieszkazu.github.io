@@ -1,0 +1,10 @@
+div {
+    background-color: transparent;
+    background-image: url("../jablko.jpg");
+    background-repeat: repeat-x;
+    background-position: right left;
+    background-attachment: scroll;
+    background-size: 10%;
+}
+
+    background: url("../jablko.jpg") no-repeat top center fixed;

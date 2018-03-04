@@ -1,0 +1,15 @@
+#jablko {
+    float: left;
+}
+
+#jablko2 {
+    float: right;
+}
+
+#jablko3 {
+    float: none;
+}
+
+
+p:last-child{
+    clear: both;

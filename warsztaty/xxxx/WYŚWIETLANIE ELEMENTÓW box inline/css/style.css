@@ -1,0 +1,20 @@
+li {
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+}
+
+
+.container {
+  text-align: center;
+}
+
+.center-me {
+  display: inline-block;
+  background: lightgreen;
+  height: 100px;
+  width: 300px;
+}
