@@ -1,5 +1,8 @@
+/*general*/
 *{
     box-sizing:border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -7,9 +10,31 @@ body{
     color:#291f1a;
     margin:0;
     font-weight:300;
-/*    background-color:red;*/
-
 }
+
+section{
+    padding: 0 80px 100px;
+    width: 100%;
+    background-color:#f9fcfe;
+}
+section h2{
+    text-align: center;
+    margin-bottom: 0.83em;
+    margin-top: 0.83;
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+}
+
+section h2 span{
+    color:#1ac056;
+    font-weight: 400;
+}
+
+
+/*end general*/
+
+/*nav*/
 #main-nav{
     width:100%;
     background-color:#fff;
@@ -32,7 +57,9 @@ body{
     color:#1ac056;
     text-decoration:none;
 }
+/*end nav*/
 
+/*header*/
 #main-header{
     background-image: url("../img/header-background.jpg");
     background-size: cover;
@@ -46,8 +73,9 @@ body{
 
 #main-header .header-content h1{
     font-family:'Roboto', sans-serif;
-    font-weight:500;
+    font-weight:300;
     font-size:50px;
+/* margin*/
 }
 
 #main-header .header-content h1 span{
@@ -58,3 +86,28 @@ body{
     font-weight:200;
     font-size:30px;        
 }
+/*end header*/
+
+/*about me*/
+
+#about img{
+    max-height: 350px;
+    max-width: 100%;
+    border: 14px #fff solid;
+    border-radius: 15px;
+}
+
+#about figure {
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+}
+#about div{
+    width: 50%;
+    float: left;
+}
+
+
+    
+/*about me end*/
