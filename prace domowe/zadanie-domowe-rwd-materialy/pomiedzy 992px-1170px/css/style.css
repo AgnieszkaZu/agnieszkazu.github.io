@@ -1,24 +1,27 @@
-@media (min-width: 992px) and (max-width: 1170px){}
+@media (min-width: 992px) and (max-width: 1170px) {}
+
 * {
     box-sizing: border-box;
 }
 
 #header {
     background-image: url(../img/man-2.jpg);
-    background-size: cover;
     height: 70%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    background-attachment:fixed;
 }
 
-/*
 #header div {
     font-family: 'Verdana', sans-serif;
     text-transform: uppercase;
-    position: absolute;
-    text-align: left;
-    margin-left: 50px;
-    top: 50%;
-    transform: translateY(-50%);
+    text-align: right;
+    margin-right: 300px;
+    margin-top: 50px;
     color: #fff;
+
 }
 
 #h1 {
@@ -30,4 +33,3 @@
     font-weight: 100;
     font-size: 40px;
 }
-*/
