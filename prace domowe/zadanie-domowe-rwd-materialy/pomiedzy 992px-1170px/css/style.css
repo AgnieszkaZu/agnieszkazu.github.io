@@ -1,28 +1,26 @@
-@media (min-width: 992px) and (max-width: 1170px) {}
-
 * {
     box-sizing: border-box;
     overflow: hidden;
+    margin: 0;
 }
 
 #header {
-    background-image: url(../img/man-2.jpg);
-    height: 70%;
+    background-image: url(../img/man-1.jpg);
+    height: 100%;
     width: 100%;
     background-position: center;
     background-size: cover;
     position: absolute;
-    background-attachment:fixed;
 }
 
 #header div {
     font-family: 'Verdana', sans-serif;
     text-transform: uppercase;
-    text-align: right;
-    margin-right: 300px;
-    margin-top: 50px;
+    text-align: left;
+    margin-left: 50px;
     color: #fff;
-
+    position: relative;
+    top: 50%;
 }
 
 #h1 {
@@ -33,4 +31,76 @@
 #h2 {
     font-weight: 100;
     font-size: 40px;
+}
+
+/*powyżej 1170px*/
+
+@media (max-width: 1170px) {
+
+    #background {
+        width: 100%;
+    }
+
+    #header div {
+        text-align: left;
+        margin-left: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    #h1 {
+        font-weight: 100;
+        font-size: 1.4em;
+    }
+
+    #h2 {
+        font-weight: 100;
+        font-size: 1.4em;
+    }
+}
+
+
+/*Pomiędzy 992px - 1170px*/
+
+@media (min-width: 992px) and (max-width: 1170px) {
+
+    #header {
+        background-image: url(../img/man-2.jpg);
+        height: 70%;
+    }
+
+    #header div {
+        transform: translateX(60%);
+        top: 10%;
+    }
+
+    #h1 #h2 {
+        font-size: 0.7em;
+    }
+}
+
+/*poniżej 992px*/
+
+@media (max-width: 992px) {
+
+    #header {
+        background-image: url(../img/man-1.jpg);
+        height: 50%;
+        display: inline-block;
+    }
+
+    #header div {
+        text-align: center;
+        top: 100%;
+        color: black;
+        margin:0;
+    }
+
+    #h1 {
+        font-size: 0.6em;
+    }
+
+    #h2 {
+        font-size: 1em;
+    }
 }
