@@ -1,4 +1,4 @@
-// tak wyglada komentzra liniowy
+// tak wyglada komentarz liniowy
 
 /*
 tutaj jest komntarz blokowy
