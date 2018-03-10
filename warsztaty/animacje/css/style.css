@@ -10,3 +10,7 @@ body{
 .translate img{
     transform: translate(150px, 300px);
 }
+
+.scale img{
+    transform: scale(0.3);
+}
