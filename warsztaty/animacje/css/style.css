@@ -1,0 +1,8 @@
+body{
+    padding-top: 70px;
+}
+
+.rotate img{
+    transform: rotate(35deg);
+    transform-origin: 0% 0%;
+}
