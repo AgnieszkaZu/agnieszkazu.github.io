@@ -1,23 +1,26 @@
 /*general*/
-*{
-    box-sizing:border-box;
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-  font-family:'Lato', sans-serif;
-    color:#291f1a;
-    margin:0;
-    font-weight:300;
+body {
+    font-family: 'Lato', sans-serif;
+    color: #291f1a;
+    margin: 0;
+    font-weight: 300;
 }
 
-section{
+section {
     padding: 0 80px 100px;
     width: 100%;
-    background-color:#f9fcfe;
+    background-color: #f9fcfe;
 }
-section h2{
+
+section h2,
+.contact-header h2 {
     text-align: center;
     margin-bottom: 0.83em;
     margin-top: 0.83;
@@ -26,78 +29,85 @@ section h2{
     color: black;
 }
 
-section h2 span{
-    color:#1ac056;
+section h2 span,
+.contact-header h2 span {
+    color: #1ac056;
     font-weight: 400;
 }
 
-p{
+p {
     line-height: 25px;
 }
 
 /*end general*/
 
 /*nav*/
-#main-nav{
-    width:100%;
-    background-color:#fff;
-    position:fixed;
-    top:0;
-    z-index:2;
+
+#main-nav {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
-#main-nav ul{
-    margin:0;
-    float:right;
+#main-nav ul {
+    margin: 0;
+    float: right;
 }
 
-#main-nav ul li{
-    display:inline-block;
-    padding:20px 40px;
+#main-nav ul li {
+    display: inline-block;
+    padding: 20px 40px;
 }
 
-#main-nav ul li a{
-    color:#1ac056;
-    text-decoration:none;
+#main-nav ul li a {
+    color: #1ac056;
+    text-decoration: none;
 }
+
 /*end nav*/
 
 /*header*/
-#main-header{
+
+#main-header {
     background-image: url("../img/header-background.jpg");
     background-size: cover;
     color: #fff;
-    }
-
-#main-header .header-content{
-    padding:30vh;
-    text-align:center;
 }
 
-#main-header .header-content h1{
-    font-family:'Roboto', sans-serif;
-    font-weight:300;
-    font-size:50px;
-/* margin*/
+#main-header .header-content {
+    padding: 30vh;
+    text-align: center;
 }
 
-#main-header .header-content h1 span{
-    color:#1ac056;
-    font-weight:300;
+#main-header .header-content h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    /* margin*/
 }
-#main-header .header-content h2{
-    font-weight:200;
-    font-size:30px;        
+
+#main-header .header-content h1 span {
+    color: #1ac056;
+    font-weight: 300;
 }
+
+#main-header .header-content h2 {
+    font-weight: 200;
+    font-size: 30px;
+}
+
 /*end header*/
 
 /*about me*/
-#about{
+
+#about {
     background-color: #f9fcfe;
     overflow: hidden;
 }
 
-#about img{
+#about img {
     max-height: 350px;
     max-width: 100%;
     border: 14px #fff solid;
@@ -108,33 +118,37 @@ p{
     float: left;
     width: 50%;
     text-align: center;
-    
+
 }
-#about div{
+
+#about div {
     width: 50%;
     float: left;
 }
-    
+
 /*about me end*/
 
 /*moje umiejetnosci skills*/
-#skills{
-    text-align:center;
+
+#skills {
+    text-align: center;
 }
 
-#skills .skills-icons figure{
+#skills .skills-icons figure {
     display: inline-block;
     margin: 20px;
 }
+
 /*moje umiejetnosci skills*/
 
 /*moje portfolio*/
-#portfolio .portfolio-items{
+
+#portfolio .portfolio-items {
     font-size: 0px;
     text-align: center;
 }
 
-#portfolio .portfolio-item{
+#portfolio .portfolio-item {
     height: 350px;
     background-size: cover;
     background-position: center;
@@ -144,58 +158,135 @@ p{
     font-size: initial;
 }
 
-#portfolio .portfolio-items #portfolio-item-1{
+#portfolio .portfolio-items #portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg);
 }
 
-#portfolio .portfolio-items #portfolio-item-2{
+#portfolio .portfolio-items #portfolio-item-2 {
     background-image: url(../img/portfolio2.jpg);
 }
-#portfolio .portfolio-items #portfolio-item-3{
+
+#portfolio .portfolio-items #portfolio-item-3 {
     background-image: url(../img/portfolio4.jpg);
 }
 
 
-#portfolio .portfolio-item-mask{
-    opacity:0;
-    background-color:rgba(42, 61, 79, 0.8);
-    width:100%;
-    height:100%;
-    position:absolute;
+#portfolio .portfolio-item-mask {
+    opacity: 0;
+    background-color: rgba(42, 61, 79, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
     transition: all 0.3s ease-in-out;
 }
 
-#portfolio .portfolio-item-mask:hover{
-    opacity:1;
+#portfolio .portfolio-item-mask:hover {
+    opacity: 1;
 }
-#portfolio .mask-content{
+
+#portfolio .mask-content {
     border: 1px solid #fff;
     margin: 10px;
     position: relative;
     height: 330px;
 }
 
-#portfolio .mask-content-inner{
-    color:#fff;
+#portfolio .mask-content-inner {
+    color: #fff;
     position: absolute;
     right: 0;
     left: 0;
     padding: 5px;
-/*    wysrodkowanie tkstu w kontenerze*/
-    top:50%;
+    /*    wysrodkowanie tekstu w kontenerze*/
+    top: 50%;
     transform: translateY(-50%);
 }
-#portfolio .mask-content-inner h3{
+
+#portfolio .mask-content-inner h3 {
     margin-top: 15px;
-     margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
-#portfolio .mask-content-inner h4{
+#portfolio .mask-content-inner h4 {
     margin-top: 10px;
-     margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-#portfolio .mask-content-inner .fa-link:hover{
-    color:#1ac056;
+#portfolio .mask-content-inner .fa-link:hover {
+    color: #1ac056;
 }
+
 /*end moje portfolio*/
+
+/*kontakt*/
+
+#contact {
+    background: #213b50;
+    color: #fff;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#contact .contact-header {
+    font-size: 15px;
+    font-weight: 100;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #fff;
+    float: left;
+    margin-top: 40px;
+
+}
+
+#contact .contact-header h2 {
+    text-align: left;
+    color: #fff;
+}
+
+#contact .contact-header a {
+    color: #fff;
+}
+
+#contact .contact-header a:hover {
+    color: #1ac056;
+}
+
+.media{
+    margin-top: 20px;
+}
+
+#formularz {
+    color: #f9fcfe;
+    float: right;
+    margin-top: 20px;
+}
+
+#formularz input[type="submit"] {
+    color: #f9fcfe;
+}
+#formularz input, textarea {
+    background-color: #4e708c;
+    outline: none;
+}
+
+#formularz input[type="submit"] {
+    background-color: #1ac056;
+    border: #fff 0.5px solid;
+    width: 70px;
+    height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 3px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+/* media */
+
+@media (max-width: 600px) {
+    body {
+        height: 50vw;
+    }
+}
