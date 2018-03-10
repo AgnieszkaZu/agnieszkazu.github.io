@@ -252,7 +252,7 @@ p {
     color: #1ac056;
 }
 
-.media{
+.media {
     margin-top: 20px;
 }
 
@@ -265,7 +265,9 @@ p {
 #formularz input[type="submit"] {
     color: #f9fcfe;
 }
-#formularz input, textarea {
+
+#formularz input,
+textarea {
     background-color: #4e708c;
     outline: none;
 }
@@ -281,6 +283,14 @@ p {
     font-weight: 800;
     cursor: pointer;
 
+}
+
+#footer {
+    background: grey;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    text-align: left;
 }
 
 /* media */
