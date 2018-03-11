@@ -43,3 +43,4 @@ switch( kolor ) {
     default :
         console.log("Nie znalazłam dopasowania koloru");
 }
+
