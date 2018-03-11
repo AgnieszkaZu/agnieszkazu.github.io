@@ -56,4 +56,7 @@ console.log( elementyTablicyString );
 console.log( imiona.indexOf( "Sandra" ) );
 
 
+////usuwanie wernątrz tablicy
+//imiona.splice(1,1);
+//console.log ( imiona );
 
