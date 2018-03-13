@@ -4,14 +4,18 @@
 var jsonOsoby = {
     "osoby": [
         {
-            imie: "Krystian", 
-            nazwisko: "Dziopa", 
-            wzrost: 180, 
-            oczy: "niebieskie", 
-            zainteresowania: [ 
-                { nazwa: "podroze" }, 
-                { nazwa: "gotowanie" }
-            ] 
+            imie: "Krystian",
+            nazwisko: "Dziopa",
+            wzrost: 180,
+            oczy: "niebieskie",
+            zainteresowania: [
+                {
+                    nazwa: "podroze"
+                },
+                {
+                    nazwa: "gotowanie"
+                }
+            ]
         },
         {
             imie: "Dominik",
@@ -19,8 +23,12 @@ var jsonOsoby = {
             wzrost: 170,
             oczy: "brązowe",
             zainteresowania: [
-                { nazwa: "gotowanie" },
-                { nazwa: "języki" }
+                {
+                    nazwa: "gotowanie"
+                },
+                {
+                    nazwa: "języki"
+                }
             ]
         },
         {
@@ -29,30 +37,36 @@ var jsonOsoby = {
             wzrost: 167,
             oczy: "brązowe",
             zainteresowania: [
-                { nazwa: "programowanie" },
-                { nazwa: "podroze" },
-                { nazwa: "języki" }
+                {
+                    nazwa: "programowanie"
+                },
+                {
+                    nazwa: "podroze"
+                },
+                {
+                    nazwa: "języki"
+                }
             ]
-            
+
         }
     ]
 }
 
 
 
-jsonOsoby.osoby.forEach( function( element, index ) {
-    console.log( "Nazywam się: " + element.imie + " " + element.nazwisko + " i mam " + element.oczy + " oczy" );
-} );
+jsonOsoby.osoby.forEach(function (element, index) {
+    console.log("Nazywam się: " + element.imie + " " + element.nazwisko + " i mam " + element.oczy + " oczy");
+});
 
 
 
 
 
 
-console.log( jsonOsoby.osoby[0].imie );
-console.log( jsonOsoby.osoby[0].wzrost );
-console.log( jsonOsoby.osoby[0].oczy );
-console.log( jsonOsoby.osoby[1].zainteresowania[2] );
+console.log(jsonOsoby.osoby[0].imie);
+console.log(jsonOsoby.osoby[0].wzrost);
+console.log(jsonOsoby.osoby[0].oczy);
+console.log(jsonOsoby.osoby[1].zainteresowania[2]);
 
 
 
@@ -64,6 +78,6 @@ var obiekt = {
     wzrost: 182,
     oczy: "szare",
 }
-for( var property in obiekt ){
-    console.log( "Nazwa właściwości: " + property + " Wartość właściwości: " + obiekt[property] );
+for (var property in obiekt) {
+    console.log("Nazwa właściwości: " + property + " Wartość właściwości: " + obiekt[property]);
 }
