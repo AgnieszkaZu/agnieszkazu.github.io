@@ -34,3 +34,22 @@ function sortString(napisZPosortowanymiLiterami) {
     return napisZPosortowanymiLiterami.split("").sort().join("");
 }
 console.log(sortString("Akademia108"));
+
+
+
+
+function sumaIloczyn(tablica){
+    suma = 0;
+    iloczyn = 1;
+    for ( i = 0; i<tablica.length; i++ ) { 
+    suma += tablica[i];
+    iloczyn *= tablica [i];
+    }
+    console.log("Suma wszystlich elementow tablicy wynosi: " + suma);
+    console.log("Iloczyn wszystkich elementow tablicy wynosi: " + iloczyn);
+    
+}
+var tablica = [1, 2, 3, 4, 5, 6];
+sumaIloczyn(tablica);
+
+//Napisz funkcję ze zmiennymi lokalnymi, która policzy sumę i iloczyn elementów tablicy [1, 2, 3, 4, 5, 6]. Funkcja przyjmuje jeden parametr - ww. tablicę z liczbami. Funkcja nie zwraca nic. Funkcja wyświetla wyniki w konsoli.
