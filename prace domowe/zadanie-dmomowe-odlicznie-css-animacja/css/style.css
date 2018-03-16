@@ -6,13 +6,11 @@ body {
 #odliczanie {
     position: relative;
     height: 100vh;
-    object-fit: cover;
 }
 
 .odliczanie {
     color: #fff;
     font-family: 'Verdana';
-    box-sizing: border-box;
     padding-top: 30vh;
     padding-bottom: 30vh;
     width: 100%;
