@@ -110,3 +110,50 @@
 //
 //sortowanieBabelkowe(elementyTablicy);
 //console.log(elementyTablicy);
+
+
+
+//obiekty ksiazka
+
+
+
+class ksiazka {
+    constructor(tytul, autor, Boolean) {
+        this.tytul = tytul;
+        this.autor = autor;
+        this.przeczytana = Boolean;
+    }
+    opiszKsiazke() {
+
+        if (this.przeczytana === true) {
+            console.log("Książka ma tytuł " + this.tytul + ", autorem jest " + this.autor + " i została przeczytana.");
+        } else {
+            console.log("Książka ma tytuł " + this.tytul + ", autorem jest " + this.autor + " i nie została przeczytana.");
+        }
+    }
+}
+
+var maleZycie = new ksiazka("Małe Życie", "Hanya Yanagihara", true);
+var wzgorzePsow = new ksiazka("Wzgorze Psow", "Jakub Żulczyk", false);
+var fridaKhaloPrywatnie = new ksiazka("Frida Khalo Prywatnie", "Suzanne Barbezat", false);
+
+var ksiazki = [maleZycie, wzgorzePsow, fridaKhaloPrywatnie];
+
+
+function iloscPrzeczytanych() {
+    var iloscKsiazekPrzeczytanych = 0;
+
+    for (var i = 0; i < ksiazki.length; i++) {
+        if (ksiazki[i].przeczytana === true) {
+            iloscKsiazekPrzeczytanych += ksiazki[i].przeczytana;
+            ksiazki[i].opiszKsiazke();
+        } else {
+            ksiazki[i].opiszKsiazke();
+        }
+    }
+    return (iloscKsiazekPrzeczytanych);
+}
+
+var wynikFunkcji = iloscPrzeczytanych(ksiazki);
+console.log("Ilosć książek przeczytanych to " + wynikFunkcji);
+wynikFunkcji
