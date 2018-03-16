@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#odliczanie {
+    position: relative;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.odliczanie {
+    color: #fff;
+    font-family: 'Verdana';
+    box-sizing: border-box;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    width: 100%;
+    text-align: center;
+    font-size: 30em;
+    position: absolute;
+    opacity: 0;
+    animation-name: znikanie;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+}
+
+p {
+    margin: 0;
+}
+
+.odliczanie10 {
+    animation-delay: 1s;
+}
+
+.odliczanie9 {
+    animation-delay: 2s;
+}
+
+.odliczanie8 {
+    animation-delay: 3s;
+}
+
+.odliczanie7 {
+    animation-delay: 4s;
+}
+
+.odliczanie6 {
+    animation-delay: 5s;
+}
+
+.odliczanie5 {
+    animation-delay: 6s;
+}
+
+.odliczanie4 {
+    animation-delay: 7s;
+}
+
+.odliczanie3 {
+    animation-delay: 8s;
+}
+
+.odliczanie2 {
+    animation-delay: 9s;
+}
+
+.odliczanie1 {
+    animation-delay: 10s;
+}
+
+.napis {
+    margin: 0;
+    animation-delay: 11s;
+    font-size: 10em;
+    padding-top: 50vh;
+    padding-bottom: 50vh;
+}
+
+@keyframes znikanie {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
