@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -16,13 +17,13 @@
 
     <section id="sectionFirst">
         <header>
-            <p>Paragraf jeden w #sectionFirst</p>
+            <p onclick="alert('Wywołano alert dla paragrafu');">Paragraf jeden w #sectionFirst</p>
             <!--Tutaj komentarz do #sectionFirst-->
             <h1 id="main-header">Header text</h1>
         </header>
 
         <div id="parFirst">
-            <p>Paragraf w div#parFirst</p>
+            <p id="par2">Paragraf w div#parFirst</p>
             <a href="http://akademia108.pl" class="link">
             Link w div#parFirst
             </a>
@@ -33,7 +34,7 @@
         <div id="parSecond">
             <p>Kolejny tekst tym razem w div#parSecond</p>
         </div>
-        <a href="http://akademia108.pl" class="link">Link 1</a>
+        <a href="http://akademia108.pl" class="link link1">Link 1</a>
         <a href="#" class="link">Link2</a>
         <!--  br      -->
         <a href="#" class="link superlink">Link3</a>
@@ -47,7 +48,8 @@
     <!--   <script src="js/node-type.js"></script>-->
     <!--   <script src="js/tworzenie-dodawanie-usuwanie.js"></script>-->
 
-    <script src="js/manipulacja.js"></script>
+<!--    <script src="js/manipulacja.js"></script>-->
+    <script src="js/zdarzenia.js"></script>
 </body>
 
 </html>
