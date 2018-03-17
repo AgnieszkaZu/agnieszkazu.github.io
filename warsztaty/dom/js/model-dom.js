@@ -10,9 +10,10 @@
 //console.log( document.documentElement );
 
 //Obiekt window
+//window - szerokosc, wysokosc onka przegladarki
+
 //console.log( window );
 
-//window - szerokosc, wysokosc onka przegladarki
 console.log( window.innerWidth );
 console.log( window.innerHeight );
 
