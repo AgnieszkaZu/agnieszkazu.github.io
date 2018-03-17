@@ -1,4 +1,6 @@
 var liczby = [1,2,3,8,15];
+var liczby2 = [1,2,3,8,15];
+
 //function pokazTablice( liczby ){
 //    console.log( );
 }
@@ -6,6 +8,9 @@ var liczby = [1,2,3,8,15];
 function pokazTablice( arr == liczby ){
     console.log( arr );
 pokazTablice ( liczby );
+//    lub 
+    pokazTablice ( liczby2 );
+
     
     pokazTablice( ['a', 'b', 'c',]);
 
