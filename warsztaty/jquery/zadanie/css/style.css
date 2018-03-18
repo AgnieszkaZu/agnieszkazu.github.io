@@ -1,0 +1,48 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+#slider{
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+}
+.slide-show {
+    position: absolute;
+    height: 100%;
+    width: 400%;
+}
+.single-slide {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+}
+img {
+    height: 100%;
+    width: 100%;
+    }
+.slide-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 5;
+    font: #fff;
+    font-size: 4em;
+}
+.slider-arrows button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev-slide {
+    position: absolut;
+    left: 0;
+    
+}
