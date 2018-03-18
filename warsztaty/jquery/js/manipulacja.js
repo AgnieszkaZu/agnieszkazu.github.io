@@ -29,10 +29,10 @@ $(function(){
     
     
     //dodawanie wielu styli css
-    $("div").css({
-        width: "600px",
-        height: "120px",
-        backgroundColor: "lime"
+//    $("div").css({
+//        width: "600px",
+//        height: "120px",
+//        backgroundColor: "lime"
     });
     
     //dodawanie klasy elementu
@@ -40,5 +40,4 @@ $(function(){
     
     //dodawanie atrybutow do elemnentu
     $("h1").attr("title", "Głowny tytuł ustawiony za pomocą jQuery");
-    
-});
+        
