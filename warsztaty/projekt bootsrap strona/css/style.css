@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+section{
+    padding: 50px 0;
+}
+
+
+#main-nav a {
+    color: #fff;
+}
+
+.main-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/header/pictures_on_the_wall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.main-header .hc-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2em;
+    
+}
+
+.header-caption {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-caption h2 {
+    font: 2.9em;
+font-family: 'Droid Serif', sans-serif;
+}
+
+.header-caption .read-more{
+    background-color: #0ed8d6;
+    border: 1px solid #0ed8d6;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    transition: all .3s;
+    padding: 15px 30px;
+}
+
+.header-caption .read-more:hover{
+    background-color: #fff;
+    }
+
+.header-caption .read-more:active{
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 992px){
+    #main-nav{
+        background-color: #fff;
+    }
+    #main-nav a{
+        color: #777;
+    }
+}
+
+#services .fas{
+    background-color: #0ed8d6;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 5s;
+}
+
+#services .fas:hover{
+    transform: rotate(360deg);
+    background-color: #fff;
+    color: #0ed8d6;
+}
+
+.section-header{
+    font-family: 'Droid Serif', sans-serif;
+}
