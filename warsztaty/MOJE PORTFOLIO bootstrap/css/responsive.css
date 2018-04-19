@@ -41,16 +41,19 @@
     }
 
 
-    #about > figure {
+    #about figure {
         width: 100%;
     }
 
-    #about > figure > img {
+    #about figure img {
         max-height: inherit;
     }
 
-    #about > article {
+    #about p {
         width: 100%;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 0;
     }
 
     #portfolio .portfolio-items .portfolio-item {
