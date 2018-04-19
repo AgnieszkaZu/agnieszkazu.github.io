@@ -115,28 +115,29 @@ p {
     overflow: hidden;
 }
 
-#about > figure {
+#about figure {
     float: left;
-    width: 50%;
-    text-align: center;
+    width: 100%;
     margin: 0;
 }
 
-#about > article {
-    width: 50%;
-    float: left;
-}
+#about p {
+    width: 100%;
+    float: right;
+    text-align: left;
+    margin-right: 70px;
+    padding: 10px;
+    }
 
-#about > figure > img {
-    max-height: 350px;
+#about figure img {
+    max-height: 200px;
     max-width: 100%;
     border: 14px #fff solid;
     border-radius: 15px;
 }
 
-#about > h2 {
+#about h2 {
     margin-top: 40px;
-    margin-left: 90px;
 }
 
 /*about me end*/

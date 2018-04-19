@@ -54,15 +54,17 @@
         </div>
     </header>
 
-    <section id="about">
-        <h2>O <span>mnie</span></h2>
-        <figure><img src="img/IMG_5060.JPG" alt="AgnieszkaZuchora">
-        </figure>
-        <div class="about-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rem fuga ipsum? Reiciendis repudiandae dolores deserunt illo iste vero voluptatum incidunt, voluptate voluptas, velit asperiores illum consequuntur architecto nemo soluta vitae! Deserunt eaque quia repellendus alias assumenda doloribus sit necessitatibus autem nulla officia, quo quod aut! Quis sit, ut totam harum doloremque dolores sed officiis quaerat molestiae magni quo non cumque. Pariatur id dolorem incidunt maxime inventore quam optio aut facere? Officiis assumenda natus odit eveniet repellendus quos, quas nisi. Numquam id asperiores nisi atque modi tempore magni quibusdam, reiciendis quas laudantium sit, quos voluptatem explicabo quae deleniti dolores, velit.</p>
+
+<section id="about" class="container">
+        <h2 class="text-center">O <span>mnie</span></h2>
+        <div class="row">
+            <figure class="col-md-6 col- text-center"><img src="img/IMG_5060.JPG" alt="AgnieszkaZuchora"></figure>
+            <div class="col-md-6 col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas facere itaque ut veritatis ipsa quibusdam nulla. Laudantium libero, autem explicabo. Reiciendis quasi vero natus, hic debitis, ullam, voluptas blanditiis quam dignissimos, magnam quia illo et mollitia totam pariatur nostrum placeat amet aut delectus.</p>
+                <p>Quia corporis excepturi sunt quos veritatis, laborum eveniet delectus unde obcaecati aut? Ea quisquam corporis, laudantium deleniti aspernatur cumque, iste quas necessitatibus accusamus quo perferendis!</p>
+            </div>
         </div>
     </section>
-
 
 
     <section id="services">
@@ -70,47 +72,55 @@
             <div class="row">
                 <header class="section-header">
                     <h2 class="section title">Moje <span>umiejętności</span></h2>
-                    <p clas="section-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat recusandae fuga earum sapiente in pariatur distinctio aperiam deleniti officiis obcaecati!.</p>
+                    <p clas="section-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat recusandae fuga earum sapientquos, quas nisi. Numquam id asperiores nisi atque modi tempore magni quibusdam, reiciendis quas laudantium sit, qe in pariatur distinctio aperiam deleniti officiis obcaecati!.</p>
                 </header>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-4"><i class="fas fa-suitcase"></i>
+            <div class="col-md-4 col-sm-6"><i class="fas fa-suitcase"></i>
                 <h3>Web Developer</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus tempora reiciendis, fuga ipsam doloremque unde!</p>
             </div>
 
-            <div class="col-md-4"><i class="fas fa-cloud-download-alt"></i>
+            <div class="col-md-4 col-sm-6"><i class="fas fa-cloud-download-alt"></i>
                 <h3>E-Commerce</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus tempora reiciendis, fuga ipsam doloremque unde!</p>
             </div>
-
-            <div class="col-md-4"><i class="fas fa-comment-dots fa"></i>
-                <h3>Web Design</h3>
+                <div class="col-md-4 col-sm-6"><i class="fas fa-desktop"></i>
+                    <h3>Web Design</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus tempora reiciendis, fuga ipsam doloremque unde!</p>
             </div>
+
 
         </div>
 
 
         <div id="skills-icons">
-            <figure class="skills-icons-item"><img src="icons/html5.png" alt="Ikona HTML5">
-                <figcaption>HTML5</figcaption>
-            </figure>
 
-            <figure class="skills-icons-item"><img src="icons/css3.png" alt="Ikona CSS3">
-                <figcaption>CSS3</figcaption>
-            </figure>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6"><i class="skills-icons-item"><img src="icons/html5.png" alt="Ikona HTML5"></i>
+                    <h3>HTML5</h3>
+                </div>
 
-            <figure class="skills-icons-item"> <img src="icons/js.png" alt="Ikona JS">
-                <figcaption>JavaScript</figcaption>
-            </figure>
+                <div class="col-md-3 col-sm-6 col-6"><i class="skills-icons-item"><img src="icons/css3.png" alt="Ikona CSS3"></i>
+                    <h3>CSS</h3>
+                </div>
 
-            <figure class="skills-icons-item"><img src="icons/jquery.png" alt="Ikona jQuery">
-                <figcaption>jQuery</figcaption>
-            </figure>
+                <div class="col-md-3 col-sm-6 col-6"><i class="skills-icons-item"> <img src="icons/js.png" alt="Ikona JS"></i>
+                    <h3>JavaScript</h3>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-6"><i class="skills-icons-item"><img src="icons/jquery.png" alt="Ikona jQuery"></i>
+                    <h3>jQuery</h3>
+                </div>
+
+
+
+
+            </div>
         </div>
+
 
     </section>
 
@@ -171,14 +181,14 @@
                     <p>Masz w planach fajny projekt lub masz pytania pisz.</p>
                 </header>
                 <form action="" class="row">
-                    <div class="col-md-6 left-form">
+                    <div class="col-md-6 col-sm-12 left-form">
                         <input type="text" name="name" id="name" placeholder="IMIĘ">
 
                         <input type="email" name="_replyto" id="mail" placeholder="E-MAIL">
 
                         <input type="tel" name="phone" id="phone" placeholder="TELEFON">
                     </div>
-                    <div class="col-md-6 right-form">
+                    <div class="col-md-6 col-sm-12 right-form">
 
                         <textarea name="message" cols="30" rows="10" maxlength="100" id="message" placeholder="WIADOMOŚĆ"></textarea>
 
@@ -201,15 +211,13 @@
     </footer>
 
 
-    </section>
-
-
-
-    <script src="js/main.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+<!--    <script src="js/main.js"></script>-->
+
 </body>
 
 </html>
